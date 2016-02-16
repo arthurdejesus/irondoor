@@ -200,7 +200,7 @@
 @media(max-width: 1024px) {
   .is-mobile {
 	.section {
-	  min-height: 500px;
+	  min-height: 600px;
 	}
 
 	.carousel--details {
@@ -240,16 +240,10 @@
 
 	.section--process {
 	  margin-top: 0;
+	  padding: 4em 0 2em;
 	}
 
-	.content-process {
-	  &:after {
-		content: '';
-		display: table;
-		clear: both;
 
-	  }
-	}
 
 	.section__display {
 	  position: relative;
@@ -258,6 +252,7 @@
 	  width: 50%;
 	  float: right;
 	  opacity: 1;
+	  padding-top: 3em;
 
 	  .section__title {
 		opacity: 1;
@@ -282,12 +277,6 @@
 	  width: 100%;
 	  height: 100%;
 	  display: block;
-
-	  &:after {
-		content: '';
-		display: table;
-		clear: both;
-	  }
 	}
 
 	.section--contact .content-wrap {
@@ -303,6 +292,41 @@
 	.section--contact .content-wrap:before {
 	  width: 220px;
 	}
+
+	.carousel--steps .carousel-inner {
+	  overflow: hidden;
+	}
+
+	.section--contact {
+	  min-height: 0;
+	  overflow: hidden;
+	  padding-bottom: 5em;
+	}
+
+	.section--contact, .section--contact .l-wrap .contact-content, .content-process {
+	  &:after {
+		content: '';
+		display: table;
+		clear: both;
+	  }
+	}
+
+	.section__display-image {
+	  width: 80%;
+	}
+
+	.section--contact .btn-primary {
+	  opacity: 1;
+	  top: -10px;
+	}
+
+	.contact__info {
+	  margin-top: 5em;
+	  overflow: hidden;
+	  top: 0;
+	  opacity: 1;
+	}
+
   }
 }
 

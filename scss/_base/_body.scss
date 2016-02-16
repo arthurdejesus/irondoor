@@ -42,3 +42,14 @@ body {
 		background: #0e0c0c;
 	}
 }
+
+div {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

@@ -15,7 +15,7 @@ if (isMobile)$(".section--introduction").addClass("active"), $(".l-header, .sect
     $(".section--introduction").height($(window).height())
 }), $(window).trigger("resize"); else {
     $(".l-header, .section__trigger, .l-footer").addClass("is-animated"), $(window).resize(function () {
-        $(".product--details, .carousel--details").height($(window).height())
+        $(".carousel--details").height($(window).height())
     }), $(window).trigger("resize"), $(".l-main").fullpage({
         verticalCentered: !1,
         scrollingSpeed: 1e3,

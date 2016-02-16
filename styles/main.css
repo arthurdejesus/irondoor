@@ -69,6 +69,15 @@ body {
 .fp-viewing-process-0 .footer__pagination-bar {
   background: #0e0c0c; }
 
+div {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
 .btn-primary {
   font-family: 'PlayfairDisplayBold';
   font-size: 21px;
@@ -709,6 +718,10 @@ body {
     background-image: url(../images/arrow-right.png);
     right: -30px; }
 
+.carousel--details .item-details {
+  position: relative;
+  height: 100%;
+  width: 100%; }
 .carousel--details .carousel-indicators {
   float: none;
   position: absolute;
@@ -963,7 +976,7 @@ body {
     min-height: 350px; } }
 @media (max-width: 1024px) {
   .is-mobile .section {
-    min-height: 500px; }
+    min-height: 600px; }
   .is-mobile .carousel--details .carousel-inner {
     height: 600px; }
   .is-mobile .carousel--details .carousel-inner .active .product__thumbnail {
@@ -982,18 +995,16 @@ body {
   .is-mobile .section--tradition .section-caption .btn-primary {
     opacity: 1; }
   .is-mobile .section--process {
-    margin-top: 0; }
-  .is-mobile .content-process:after {
-    content: '';
-    display: table;
-    clear: both; }
+    margin-top: 0;
+    padding: 4em 0 2em; }
   .is-mobile .section__display {
     position: relative;
     top: 0;
     margin-top: 0;
     width: 50%;
     float: right;
-    opacity: 1; }
+    opacity: 1;
+    padding-top: 3em; }
     .is-mobile .section__display .section__title {
       opacity: 1; }
   .is-mobile .carousel--steps {
@@ -1012,10 +1023,6 @@ body {
     width: 100%;
     height: 100%;
     display: block; }
-    .is-mobile .section--contact .l-wrap .contact-content:after {
-      content: '';
-      display: table;
-      clear: both; }
   .is-mobile .section--contact .content-wrap {
     width: 100%;
     margin-top: 5em; }
@@ -1023,7 +1030,27 @@ body {
     opacity: 1;
     top: -18px; }
   .is-mobile .section--contact .content-wrap:before {
-    width: 220px; } }
+    width: 220px; }
+  .is-mobile .carousel--steps .carousel-inner {
+    overflow: hidden; }
+  .is-mobile .section--contact {
+    min-height: 0;
+    overflow: hidden;
+    padding-bottom: 5em; }
+  .is-mobile .section--contact:after, .is-mobile .section--contact .l-wrap .contact-content:after, .is-mobile .content-process:after {
+    content: '';
+    display: table;
+    clear: both; }
+  .is-mobile .section__display-image {
+    width: 80%; }
+  .is-mobile .section--contact .btn-primary {
+    opacity: 1;
+    top: -10px; }
+  .is-mobile .contact__info {
+    margin-top: 5em;
+    overflow: hidden;
+    top: 0;
+    opacity: 1; } }
 @media (max-width: 991px) {
   .section--contact .content-wrap {
     width: 735px; } }

@@ -133,6 +133,12 @@
 }
 
 .carousel--details {
+  .item-details {
+	position: relative;
+	height: 100%;
+	width: 100%;
+  }
+
   .carousel-indicators {
 	float: none;
 	position: absolute;
