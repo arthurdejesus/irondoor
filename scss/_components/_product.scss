@@ -1,0 +1,87 @@
+// ==================================================================================
+// Product
+// ==================================================================================
+
+.product {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.product--details {
+	text-align: center;
+}
+
+.product__image {
+	position: absolute;
+	top: 54%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-54%);
+	-moz-transform: translate(-50%,-54%);
+	-ms-transform:translate (-50%,-54%);
+	-o-transform: translate(-50%,-54%);
+	transform: translate(-50%,-54%);
+	opacity: 0;
+	transition: all .6s 0s ease-in-out;
+}
+
+.product__thumbnail {
+	position: absolute;
+	top: 85%;
+    left: 30%;
+	-webkit-transform: translate (-30%, -85%);
+	-moz-transform: translate(-30%, -85%);
+	-ms-transform:translate (-30%, -85%);
+	-o-transform: translate(-30%, -85%);
+	transform: translate(-30%, -85%);
+	z-index: 3;
+	width: 184px;
+	height: 187px;
+	overflow: hidden;
+	border-radius: 100%;
+	opacity: 0;
+	box-shadow: 0 0 40px rgba(0,0,0,0.6);
+	transition: all .6s 0s ease-in-out;
+	cursor: pointer;
+
+	img {
+		max-width: 100%;
+	}
+}
+
+.product__overlay {
+	position: absolute;
+	top: 350px;
+	left: -100px;
+	width: 1200px;
+	height: 1200px;
+	border-radius: 100%;
+	overflow: hidden;
+	transform: scale(0.1);
+	transition: all .6s ease-in-out;
+	
+	img {
+		width: 100%;
+		height: 100%;
+	}
+}
+
+// States
+// If section is active it will show up product image
+// 
+
+
+.is-triggered {
+	.product__overlay {
+		transform: scale(1.5);
+		opacity: 0;
+	}
+
+	.product__image,
+	.section__title,
+	.product__thumbnail  {
+		opacity: 0;
+		transition: all .4s ease-in-out;
+	}
+
+}

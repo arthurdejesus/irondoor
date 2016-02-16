@@ -1,0 +1,84 @@
+// ==================================================================================
+// Footer
+// ==================================================================================
+
+.l-footer {
+	position: fixed;
+	z-index: 2;
+	bottom: 50px;
+	width: 100%;
+	font-family: 'Steelfish', sans-serif;
+	color: #fff;
+	opacity: 0;
+	transition: all .8s 1.3s ease-in-out;
+
+	&.is-animated {
+		opacity: 1;
+	}
+}
+
+.footer__link {
+	position: absolute;
+	bottom: 30px;
+	float: left;
+	margin-left: 30px;
+	font-size: 16px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	&:after {
+		content: '';
+		position: absolute;
+		bottom: 60px;
+		left: 34px;
+		width: 1px;
+		height: 50px;
+		background: #fff;
+		transition: all .4s linear;
+	}
+
+	&:hover {
+		&:after {
+			height: 35px;
+		}
+	}
+}
+
+.footer__link-transformed {
+	display: block;
+	-webkit-transform:rotate(-90deg);
+	-moz-transform:rotate(-90deg);
+	-ms-transform:rotate(-90deg);
+	-o-transform:rotate(-90deg);
+	transform:rotate(-90deg);
+
+}
+
+.footer__pagination {
+	float: right;
+	margin-right: 50px;
+	font-size: 16px;
+}
+
+.footer__pagination-bar {
+	display: block;
+	position: relative;
+	left: 2px;
+	width: 1px;
+	height: 20px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background: #fff;
+	transition: all 0s .2s linear;
+}
+
+.footer__pagination-active,
+.footer__pagination-total {
+	display: block;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
