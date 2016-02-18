@@ -69,6 +69,16 @@ if(!isMobile){
 
     $(window).trigger('resize');
 
+    $(function(){
+        $(document).scroll(function(){
+            if($(this).scrollTop() >= $('#content').offset().top - 50) {
+                $("#content").css("background","red");
+            } else {
+                $("#content").css("background","orange");
+            }
+        });
+    });
+
 
     $(function() {
         $('a[href*="#"]:not([href="#"])').click(function() {
