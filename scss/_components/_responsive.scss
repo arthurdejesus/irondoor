@@ -351,6 +351,11 @@
 	  display: none;
 	}
 
+	.section--contact .section__bottom {
+	  filter: alpha(opacity=100); /* For IE8 and earlier */
+	  opacity: 1;
+	}
+
   }
 
   .section--introduction  .section__title--primary {
