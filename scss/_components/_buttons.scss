@@ -40,7 +40,11 @@
   border-color: #d6a576;
 
   &:before {
-    background-color: #fff ;
+    background-color: #d6a576 ;
+  }
+
+  &:hover {
+    color: #fff;
   }
 
 }

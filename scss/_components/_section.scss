@@ -32,7 +32,7 @@
 	opacity: 0;
     filter: alpha(opacity=0); /* For IE8 and earlier */
 	font-family: Steelfish;
-	color: #fff;
+    color: #0e0c0c;
 }
 
 .section__title-animated {
@@ -176,18 +176,6 @@
 
 .section--tradition {
 	position: relative;
-	background-color: #111;
-
-	&:after {
-		content: '';
-		z-index: 1;
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		background-color: rgba(0,0,0,0.6);
-	}
 }
 
 .section--tradition {
@@ -240,17 +228,6 @@
 // Details
 
 .section--details {
-	background: #0e0c0c;
-
-	&:before {
-		content: '';
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		background: url('../images/bg-blur.jpg') center no-repeat;
-	}
 
 	.section__title {
 	  position: relative;
@@ -394,15 +371,16 @@
 
 .section--contact {
 	.section__title {
-		position: absolute;
+		position: relative;
 		top: 30px;
 		left: 0;
 		right: 0;
-    	font-size: 100px;
-	    color: #fff;
-	    text-align: center;
-	    transition: all .6s 1.2s ease-in-out;
-	    z-index: 1;
+		font-size: 100px;
+		text-align: center;
+		transition: all .6s 1.2s ease-in-out;
+		z-index: 1;
+		display: block;
+	    margin-bottom: 50px;
 	}
 
 	.l-wrap {
@@ -410,6 +388,7 @@
 	    height: 100%;
 
 	  .contact-content {
+		text-align: center;
 		position: absolute;
 		top: 50%;
 		left: 50%;
@@ -439,7 +418,7 @@
   text-align: center;
   font-size: 26px;
   text-transform: uppercase;
-  color: #fff;
+  color: #0e0c0c;
 }
 
 .contact__info {
@@ -452,20 +431,19 @@
 }
 
 .contact__item {
-	float: left;
-	width: 50%;
+text-align: center;
 }
 
 .contact__item-bio {
 	font-size: 20px;
 	line-height: 1.8;
-    padding-left: 6em;
 
   	li {
-	  color: #fff;
+	  color: #0e0c0c;
 	  a {
-		color: #fff;
+		color: #0e0c0c;
 		cursor: pointer;
+		text-decoration: none;
 
 		&:hover {
 		  text-decoration: underline;
@@ -475,37 +453,8 @@
 }
 
 .section--contact {
-  background-color: #000;
-
   .content-wrap {
 	text-align: center;
-	padding: 12px;
-	width: 935px;
-	height: 445px;
-	margin: 0 auto;
-	border: 10px solid #201e1e;
-	position: relative;
-
-	&:before, &:after {
-	  content: '';
-	  background-color: #000;
-	  z-index: 1;
-	  position: absolute;
-	  left: 0;
-	  right: 0;
-	  margin: 0 auto;
-	  height: 20px;
-	}
-
-	&:before {
-	  top: -15px;
-	  width: 450px;
-	}
-
-	&:after {
-	  bottom: -15px;
-	  width: 300px;
-	}
   }
 
   .content-image-wrap {
