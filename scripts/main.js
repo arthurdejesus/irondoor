@@ -71,14 +71,13 @@ if(!isMobile){
 
     $(function(){
         $(document).scroll(function(){
-            if($(this).scrollTop() >= $('#content').offset().top - 50) {
-                $("#content").css("background","red");
+            if($(this).scrollTop() >= $('.section--details, .section--process, .section--contact').offset().top - 50) {
+                $("body").addClass("navigation-brown");
             } else {
-                $("#content").css("background","orange");
+                $("body").removeClass("navigation-brown");
             }
         });
     });
-
 
     $(function() {
         $('a[href*="#"]:not([href="#"])').click(function() {

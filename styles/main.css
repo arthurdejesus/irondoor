@@ -57,20 +57,20 @@ body {
   font-size: 18px;
   -webkit-font-smoothing: antialiased; }
 
-.fp-viewing-process-0 .brand, .fp-viewing-details-0 .brand, .fp-viewing-contact .brand {
+.fp-viewing-process-0 .brand, .fp-viewing-details-0 .brand, .fp-viewing-contact .brand, .navigation-brown .brand {
   transition: all 0s .8s linear;
   background: url("../images/brand-alt.svg") 0 0 no-repeat; }
-.fp-viewing-process-0 .menu__icon, .fp-viewing-details-0 .menu__icon, .fp-viewing-contact .menu__icon {
+.fp-viewing-process-0 .menu__icon, .fp-viewing-details-0 .menu__icon, .fp-viewing-contact .menu__icon, .navigation-brown .menu__icon {
   background: #0e0c0c; }
-.fp-viewing-process-0 .l-footer, .fp-viewing-details-0 .l-footer, .fp-viewing-contact .l-footer {
+.fp-viewing-process-0 .l-footer, .fp-viewing-details-0 .l-footer, .fp-viewing-contact .l-footer, .navigation-brown .l-footer {
   color: #0e0c0c; }
-.fp-viewing-process-0 .menu__item a, .fp-viewing-details-0 .menu__item a, .fp-viewing-contact .menu__item a {
+.fp-viewing-process-0 .menu__item a, .fp-viewing-details-0 .menu__item a, .fp-viewing-contact .menu__item a, .navigation-brown .menu__item a {
   color: #0e0c0c; }
-.fp-viewing-process-0 .footer__link, .fp-viewing-details-0 .footer__link, .fp-viewing-contact .footer__link {
+.fp-viewing-process-0 .footer__link, .fp-viewing-details-0 .footer__link, .fp-viewing-contact .footer__link, .navigation-brown .footer__link {
   color: #0e0c0c; }
-  .fp-viewing-process-0 .footer__link:after, .fp-viewing-details-0 .footer__link:after, .fp-viewing-contact .footer__link:after {
+  .fp-viewing-process-0 .footer__link:after, .fp-viewing-details-0 .footer__link:after, .fp-viewing-contact .footer__link:after, .navigation-brown .footer__link:after {
     background: #0e0c0c; }
-.fp-viewing-process-0 .footer__pagination-bar, .fp-viewing-details-0 .footer__pagination-bar, .fp-viewing-contact .footer__pagination-bar {
+.fp-viewing-process-0 .footer__pagination-bar, .fp-viewing-details-0 .footer__pagination-bar, .fp-viewing-contact .footer__pagination-bar, .navigation-brown .footer__pagination-bar {
   background: #0e0c0c; }
 
 div {
