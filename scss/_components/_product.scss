@@ -21,6 +21,7 @@
   transition: all .6s 0s ease-in-out;
   cursor: pointer;
   z-index: 3;
+  filter: alpha(opacity=0); /* For IE8 and earlier */
   opacity: 0;
 }
 
@@ -29,6 +30,7 @@
   transition: all .6s 0s ease-in-out;
   position: relative;
   top: 100px;
+  filter: alpha(opacity=0); /* For IE8 and earlier */
   opacity: 0;
 }
 
