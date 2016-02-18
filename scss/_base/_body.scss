@@ -8,6 +8,41 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+// States
+
+.fp-viewing-process-0, .fp-viewing-details-0, .fp-viewing-contact {
+	.brand {
+		transition: all 0s .8s linear;
+		background: url('../images/brand-alt.svg') 0 0  no-repeat;
+	}
+
+	.menu__icon {
+		background: #0e0c0c;
+	}
+
+	.l-footer {
+		color: #0e0c0c;
+	}
+
+	.menu__item {
+		a {
+			color: #0e0c0c;
+		}
+	}
+
+	.footer__link {
+		color: #0e0c0c;
+
+		&:after {
+			background: #0e0c0c;
+		}
+	}
+
+	.footer__pagination-bar {
+		background: #0e0c0c;
+	}
+}
+
 div {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
