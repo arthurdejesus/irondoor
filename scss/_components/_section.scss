@@ -415,8 +415,8 @@
 
 	.section__bottom {
 		opacity: 0;
-	  filter: alpha(opacity=0); /* For IE8 and earlier */
-		position: fixed;
+	    filter: alpha(opacity=0); /* For IE8 and earlier */
+		position: absolute;
 		right: 0;
 		bottom: -50px;
 		width: 100%;
@@ -427,7 +427,7 @@
 }
 
 .contact__info-title {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   text-align: center;
   font-size: 26px;
   text-transform: uppercase;
@@ -456,6 +456,7 @@
 	  a {
 		color: #0e0c0c;
 		cursor: pointer;
+		text-decoration: none;
 
 		&:hover {
 		  text-decoration: underline;
@@ -539,7 +540,7 @@
 
 	.section__bottom {
 		opacity: 0.4;
-	  filter: alpha(opacity=40); /* For IE8 and earlier */
+	    filter: alpha(opacity=40); /* For IE8 and earlier */
 		bottom: 0;
 		transition: all .6s 1.2s ease-in-out;
 	}
@@ -584,4 +585,25 @@
 			}
 		}
 	}
+}
+
+.social-media-icons {
+  margin-top: 10px;
+
+  li {
+	display: inline-block;
+
+	a {
+	  font-size: 18px;
+	  color: #5D310A;
+	  text-decoration: none;
+	  border: 1px solid #5D310A;
+	  border-radius: 100%;
+	  padding: 8px 8px;
+	  display: block;
+	  width: 20px;
+	  height: 20px;
+	  margin: 0 5px;
+	}
+  }
 }

@@ -44,6 +44,34 @@ table {
   font-family: 'PlayfairDisplayItalic';
   src: url("../fonts/PlayfairDisplayItalic.eot");
   src: url("../fonts/PlayfairDisplayItalic.eot") format("embedded-opentype"), url("../fonts/PlayfairDisplayItalic.woff2") format("woff2"), url("../fonts/PlayfairDisplayItalic.woff") format("woff"), url("../fonts/PlayfairDisplayItalic.ttf") format("truetype"), url("../fonts/PlayfairDisplayItalic.svg#PlayfairDisplayItalic") format("svg"); }
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot?wpnizt");
+  src: url("../fonts/icomoon.eot?wpnizt#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?wpnizt") format("truetype"), url("../fonts/icomoon.woff?wpnizt") format("woff"), url("../fonts/icomoon.svg?wpnizt#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-pinterest-p:before {
+  content: "\e904"; }
+
+.icon-twitter:before {
+  content: "\e906"; }
+
+.icon-facebook:before {
+  content: "\e907"; }
+
 h1,
 h2,
 h3,
@@ -421,7 +449,7 @@ img {
   opacity: 0;
   filter: alpha(opacity=0);
   /* For IE8 and earlier */
-  position: fixed;
+  position: absolute;
   right: 0;
   bottom: -50px;
   width: 100%;
@@ -430,7 +458,7 @@ img {
   transition: all .6s 1.6s ease-in-out; }
 
 .contact__info-title {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   text-align: center;
   font-size: 26px;
   text-transform: uppercase;
@@ -454,7 +482,8 @@ img {
     color: #0e0c0c; }
     .contact__item-bio li a {
       color: #0e0c0c;
-      cursor: pointer; }
+      cursor: pointer;
+      text-decoration: none; }
       .contact__item-bio li a:hover {
         text-decoration: underline; }
 
@@ -536,6 +565,22 @@ img {
   left: 0; }
 .active .section__tile:nth-child(4) .section__tile-image {
   top: -100%; }
+
+.social-media-icons {
+  margin-top: 10px; }
+  .social-media-icons li {
+    display: inline-block; }
+    .social-media-icons li a {
+      font-size: 18px;
+      color: #5D310A;
+      text-decoration: none;
+      border: 1px solid #5D310A;
+      border-radius: 100%;
+      padding: 8px 8px;
+      display: block;
+      width: 20px;
+      height: 20px;
+      margin: 0 5px; }
 
 .product--details {
   width: 50%;
@@ -1133,8 +1178,11 @@ img {
     margin-left: 20px; }
 
   .menu__trigger {
-    margin-top: 50px;
+    margin-top: 35px;
     margin-right: 30px; }
+
+  .menu__list {
+    top: 40px; }
 
   .menu__icon {
     width: 20px;
@@ -1153,15 +1201,32 @@ img {
     width: 150px;
     height: 150px; }
 
+  .btn-primary {
+    font-size: 18px;
+    padding: 15px 30px; }
+
+  .carousel-controllers {
+    display: none; }
+
+  .section--introduction .section__title--primary {
+    font-size: 91px; }
+
+  .section--contact .content-wrap {
+    width: 100%;
+    margin-top: 2em; }
+
+  .section--contact .content-wrap:before {
+    width: 220px; }
+
+  .l-footer {
+    display: none; }
+
   .is-mobile .section {
     min-height: 600px; }
   .is-mobile .carousel--details .carousel-inner {
     height: 600px; }
   .is-mobile .carousel--details .carousel-inner .active .section-caption {
     top: 33%; }
-  .is-mobile .btn-primary {
-    font-size: 18px;
-    padding: 15px 30px; }
   .is-mobile .section--tradition .section-caption {
     left: 20%; }
   .is-mobile .section--tradition .section__title--primary {
@@ -1209,16 +1274,11 @@ img {
     width: 100%;
     height: 100%;
     display: block; }
-  .is-mobile .section--contact .content-wrap {
-    width: 100%;
-    margin-top: 2em; }
   .is-mobile .section--contact .section__title {
     filter: alpha(opacity=100);
     /* For IE8 and earlier */
     opacity: 1;
     top: 0; }
-  .is-mobile .section--contact .content-wrap:before {
-    width: 220px; }
   .is-mobile .carousel--steps .carousel-inner {
     overflow: hidden; }
   .is-mobile .section--contact {
@@ -1236,7 +1296,7 @@ img {
     filter: alpha(opacity=100);
     /* For IE8 and earlier */
     opacity: 1;
-    top: -10px; }
+    top: 0; }
   .is-mobile .contact__info {
     margin-top: 3em;
     overflow: hidden;
@@ -1261,11 +1321,10 @@ img {
     -ms-transform: translate(0, 0);
     -o-transform: translate(0, 0);
     transform: translate(0, 0); }
-  .is-mobile .carousel-controllers {
-    display: none; }
-
-  .section--introduction .section__title--primary {
-    font-size: 91px; } }
+  .is-mobile .section--contact .section__bottom {
+    filter: alpha(opacity=100);
+    /* For IE8 and earlier */
+    opacity: 1; } }
 @media (max-width: 991px) {
   .section--contact .content-wrap {
     width: 735px; }
@@ -1305,6 +1364,24 @@ img {
   .section--introduction .section__title--primary {
     font-size: 70px; } }
 @media (max-width: 767px) {
+  .btn-primary {
+    font-size: 12px;
+    padding: 10px 20px; }
+
+  .product__thumbnail button {
+    width: 60px;
+    height: 60px;
+    left: 1%; }
+
+  .section--contact .content-wrap {
+    height: 200px; }
+
+  .section--contact .content-wrap:after {
+    width: 150px; }
+
+  .section--contact .content-wrap:before {
+    width: 100px; }
+
   .is-mobile .carousel--details .item-details {
     display: block; }
   .is-mobile .product--details {
@@ -1325,10 +1402,6 @@ img {
     transform: translate(0, 0); }
   .is-mobile .product__image {
     top: 0; }
-  .is-mobile .product__thumbnail button {
-    width: 60px;
-    height: 60px;
-    left: 1%; }
   .is-mobile .carousel--details .item-details {
     float: none;
     margin: 0 auto; }
@@ -1339,9 +1412,6 @@ img {
     top: 0 !important;
     padding-top: 2em;
     text-align: center; }
-  .is-mobile .btn-primary {
-    font-size: 12px;
-    padding: 10px 20px; }
   .is-mobile .section--details {
     min-height: 0; }
   .is-mobile .carousel--details .carousel-indicators {
@@ -1364,12 +1434,6 @@ img {
     text-align: center; }
   .is-mobile .carousel--steps {
     width: 100% !important; }
-  .is-mobile .section--contact .content-wrap {
-    height: 200px; }
-  .is-mobile .section--contact .content-wrap:after {
-    width: 150px; }
-  .is-mobile .section--contact .content-wrap:before {
-    width: 100px; }
   .is-mobile .contact__item {
     float: none;
     width: 100%; }
@@ -1384,7 +1448,10 @@ img {
     font-size: 50px; }
 
   .section__display .section__title-sub {
-    font-size: 20px; } }
+    font-size: 20px; }
+
+  .section--contact .content-wrap {
+    width: 600px; } }
 @media (max-height: 800px) {
   .section--contact .content-wrap {
     height: 280px; }
@@ -1409,3 +1476,66 @@ img {
 @media (max-width: 640px) {
   .section--introduction .section__title--primary {
     font-size: 35px; } }
+@media (max-width: 480px) {
+  .section__trigger-link {
+    width: 30px;
+    background-size: 100%; }
+
+  .section--contact .content-wrap {
+    width: 300px; }
+
+  .product__thumbnail p {
+    font-size: 12px;
+    margin-top: 10px; }
+
+  .section--tradition .section__title--primary {
+    font-size: 45px; }
+
+  .section__title-step {
+    font-size: 70px; }
+
+  .section__display .section__title {
+    font-size: 40px; }
+
+  .section__display .section__title-sub {
+    font-size: 18px; }
+
+  .section__title-heading {
+    font-size: 25px; }
+
+  .section--process .section__content {
+    font-size: 14px; }
+
+  .section--contact .section__title {
+    font-size: 45px; }
+
+  .menu__item a {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 11px; } }
+@media (max-width: 400px) {
+  .section--introduction .section__title--primary {
+    font-size: 30px; }
+
+  .section--details .section__title {
+    font-size: 30px; }
+
+  .btn-primary {
+    font-size: 10px;
+    padding: 8px 15px; }
+
+  .menu__item a {
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 10px; }
+
+  .carousel-indicators li {
+    margin-left: 3px;
+    margin-right: 3px; }
+
+  .carousel--steps .carousel-inner {
+    min-height: 380px; }
+
+  .section--contact .content-wrap {
+    width: 100%;
+    height: 215px; } }
