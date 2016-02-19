@@ -1145,10 +1145,7 @@ img {
     font-size: 70px; }
 
   .section--contact .section__title {
-    font-size: 70px; }
-
-  .section--contact .content-wrap:before {
-    width: 350px; } }
+    font-size: 70px; } }
 @media (max-width: 1024px) {
   .brand {
     width: 90px;
@@ -1214,9 +1211,6 @@ img {
   .section--contact .content-wrap {
     width: 100%;
     margin-top: 2em; }
-
-  .section--contact .content-wrap:before {
-    width: 220px; }
 
   .l-footer {
     display: none; }
@@ -1326,9 +1320,6 @@ img {
     /* For IE8 and earlier */
     opacity: 1; } }
 @media (max-width: 991px) {
-  .section--contact .content-wrap {
-    width: 735px; }
-
   .product__thumbnail button {
     width: 120px;
     height: 120px; }
@@ -1350,10 +1341,7 @@ img {
     font-size: 25px; }
 
   .active.section--contact .btn-primary {
-    top: -20px; }
-
-  .section--contact .content-wrap:after {
-    width: 230px; } }
+    top: -20px; } }
 @media (max-height: 900px) {
   .section--contact .section__title {
     font-size: 80px; }
@@ -1375,12 +1363,6 @@ img {
 
   .section--contact .content-wrap {
     height: 200px; }
-
-  .section--contact .content-wrap:after {
-    width: 150px; }
-
-  .section--contact .content-wrap:before {
-    width: 100px; }
 
   .is-mobile .carousel--details .item-details {
     display: block; }
@@ -1448,10 +1430,7 @@ img {
     font-size: 50px; }
 
   .section__display .section__title-sub {
-    font-size: 20px; }
-
-  .section--contact .content-wrap {
-    width: 600px; } }
+    font-size: 20px; } }
 @media (max-height: 800px) {
   .section--contact .content-wrap {
     height: 280px; }
@@ -1480,9 +1459,6 @@ img {
   .section__trigger-link {
     width: 30px;
     background-size: 100%; }
-
-  .section--contact .content-wrap {
-    width: 300px; }
 
   .product__thumbnail p {
     font-size: 12px;
@@ -1537,5 +1513,4 @@ img {
     min-height: 380px; }
 
   .section--contact .content-wrap {
-    width: 100%;
     height: 215px; } }
