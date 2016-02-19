@@ -303,6 +303,10 @@
 	  position: absolute;
 	  width: 100%;
 	  top: 45%;
+	  -webkit-transform: translate(0, -45%);
+	  -moz-transform: translate(0, -45%);
+	  -ms-transform: translate(0, -45%);
+	  -o-transform: translate(0, -45%);
 	  transform: translate(0, -45%);
 	}
 
