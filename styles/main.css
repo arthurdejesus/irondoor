@@ -101,6 +101,25 @@ body {
 .fp-viewing-process-0 .footer__pagination-bar, .fp-viewing-details-0 .footer__pagination-bar, .fp-viewing-contact .footer__pagination-bar, .navigation-brown .footer__pagination-bar {
   background: #0e0c0c; }
 
+.fp-viewing-details-0 .l-header {
+  z-index: 5; }
+
+.navigation-white .brand {
+  background: url("../images/brand.svg") 0 0 no-repeat;
+  transition: all 0s .2s linear; }
+.navigation-white .menu__icon {
+  background: #fff; }
+.navigation-white .l-footer {
+  color: #fff; }
+.navigation-white .menu__item a {
+  color: #fff; }
+.navigation-white .footer__link {
+  color: #fff; }
+  .navigation-white .footer__link:after {
+    background: #fff; }
+.navigation-white .footer__pagination-bar {
+  background: #fff; }
+
 div {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;

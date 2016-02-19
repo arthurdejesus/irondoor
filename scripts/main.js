@@ -71,13 +71,37 @@ if(!isMobile){
 
     $(function(){
         $(document).scroll(function(){
-            if($(this).scrollTop() >= $('.section--details, .section--process, .section--contact').offset().top - 50) {
+            if($(this).scrollTop() >= $('.section--details').offset().top - 50) {
+                $("body").addClass("navigation-brown");
+                $("body").addClass("fp-viewing-details-0");
+            } else {
+                $("body").removeClass("navigation-brown");
+                $("body").removeClass("fp-viewing-details-0");
+            }
+        });
+    });
+
+    $(function(){
+        $(document).scroll(function(){
+            if($(this).scrollTop() >= $('.section--process, .section--contact').offset().top - 50) {
                 $("body").addClass("navigation-brown");
             } else {
                 $("body").removeClass("navigation-brown");
             }
         });
     });
+
+    $(function(){
+        $(document).scroll(function(){
+            if($(this).scrollTop() >= $('.section--introduction, .section--tradition').offset().top - 50) {
+                $("body").removeClass("navigation-brown");
+            }
+        });
+    });
+
+
+
+
 
     $(function() {
         $('a[href*="#"]:not([href="#"])').click(function() {

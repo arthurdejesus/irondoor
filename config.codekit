@@ -66,6 +66,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/bg-footer2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.0235e+06,
+		"inputAbbreviatedPath": "\/images\/bg-footer2.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-footer2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/brand.png": {
 		"fileType": 32768,
 		"ignore": 0,
