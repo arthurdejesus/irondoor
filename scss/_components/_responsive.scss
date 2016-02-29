@@ -565,11 +565,22 @@
   }
 
   .section--contact .btn-primary {
-	margin-top: 1.5em;
+	margin-top: 1em;
   }
 
   .contact__info {
 	margin-top: 3%;
+  }
+
+  .btn-primary {
+	padding: 15px 30px;
+  }
+
+  .contact__item-bio {
+	font-size: 15px;
+  }
+  .contact__info-title {
+	font-size: 20px;
   }
 
 }

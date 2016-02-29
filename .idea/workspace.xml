@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea198b6e-d3b1-4445-a294-5331cd0d25ad" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/.sass-cache/36e1263dd2ac9c7a63fc85f72cc31d111b35803d/_section.scssc" afterPath="$PROJECT_DIR$/scss/.sass-cache/36e1263dd2ac9c7a63fc85f72cc31d111b35803d/_section.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_components/_section.scss" afterPath="$PROJECT_DIR$/scss/_components/_section.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/.sass-cache/36e1263dd2ac9c7a63fc85f72cc31d111b35803d/_responsive.scssc" afterPath="$PROJECT_DIR$/scss/.sass-cache/36e1263dd2ac9c7a63fc85f72cc31d111b35803d/_responsive.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_components/_responsive.scss" afterPath="$PROJECT_DIR$/scss/_components/_responsive.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/main.css" afterPath="$PROJECT_DIR$/styles/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -47,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_section.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_section.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/_components/_section.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42484662">
-              <caret line="397" column="19" selection-start-line="397" selection-start-column="19" selection-end-line="397" selection-end-column="19" />
+            <state vertical-scroll-proportion="-4.7125">
+              <caret line="402" column="15" selection-start-line="402" selection-start-column="15" selection-end-line="402" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -77,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_responsive.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_responsive.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scss/_components/_responsive.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-213.20755">
-              <caret line="577" column="25" selection-start-line="577" selection-start-column="25" selection-end-line="577" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.6088957">
+              <caret line="581" column="24" selection-start-line="581" selection-start-column="24" selection-end-line="581" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -115,10 +115,10 @@
         <option value="$PROJECT_DIR$/scss/_base/_body.scss" />
         <option value="$PROJECT_DIR$/scripts/main.js" />
         <option value="$PROJECT_DIR$/scss/_base/_typography.scss" />
-        <option value="$PROJECT_DIR$/scss/_components/_responsive.scss" />
         <option value="$PROJECT_DIR$/scss/_components/_carousel.scss" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/scss/_components/_section.scss" />
+        <option value="$PROJECT_DIR$/scss/_components/_responsive.scss" />
       </list>
     </option>
   </component>
@@ -642,14 +642,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_components/_responsive.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-213.20755">
-          <caret line="577" column="25" selection-start-line="577" selection-start-column="25" selection-end-line="577" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/_base/_body.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.5849056">
@@ -684,8 +676,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/_components/_section.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42484662">
-          <caret line="397" column="19" selection-start-line="397" selection-start-column="19" selection-end-line="397" selection-end-column="19" />
+        <state vertical-scroll-proportion="-4.7125">
+          <caret line="402" column="15" selection-start-line="402" selection-start-column="15" selection-end-line="402" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_components/_responsive.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6088957">
+          <caret line="581" column="24" selection-start-line="581" selection-start-column="24" selection-end-line="581" selection-end-column="24" />
           <folding />
         </state>
       </provider>
