@@ -235,6 +235,10 @@
 		font-size: 100px;
 		font-size: 4vw;
 	}
+
+    .btn-primary {
+	  transition: all linear .3s;
+	}
 }
 
 // Details
@@ -478,7 +482,6 @@
 	height: 400px;
 	margin: 0 auto;
 	border: 10px solid #201e1e;
-	position: relative;
   }
 
   .content-image-wrap {
@@ -503,7 +506,7 @@
 	position: relative;
 	top: 20px;
 	z-index: 2;
-	transition: all .6s 1.2s ease-in-out;
+	transition: all linear .3s;
 	opacity: 0;
 	filter: alpha(opacity=0);
 	margin-top: 2em;
@@ -618,8 +621,8 @@
 	}
 
 	.icon-3 {
-	  padding: 10px 8px;
-	  height: 16px;
+	  padding: 7px 8px;
+	  height: 22px;
 	}
   }
 }

@@ -46,8 +46,8 @@ table {
   src: url("../fonts/PlayfairDisplayItalic.eot") format("embedded-opentype"), url("../fonts/PlayfairDisplayItalic.woff2") format("woff2"), url("../fonts/PlayfairDisplayItalic.woff") format("woff"), url("../fonts/PlayfairDisplayItalic.ttf") format("truetype"), url("../fonts/PlayfairDisplayItalic.svg#PlayfairDisplayItalic") format("svg"); }
 @font-face {
   font-family: 'icomoon';
-  src: url("../fonts/icomoon.eot?wpnizt");
-  src: url("../fonts/icomoon.eot?wpnizt#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?wpnizt") format("truetype"), url("../fonts/icomoon.woff?wpnizt") format("woff"), url("../fonts/icomoon.svg?wpnizt#icomoon") format("svg");
+  src: url("../fonts/icomoon.eot?5tps00");
+  src: url("../fonts/icomoon.eot?5tps00#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?5tps00") format("truetype"), url("../fonts/icomoon.woff?5tps00") format("woff"), url("../fonts/icomoon.svg?5tps00#icomoon") format("svg");
   font-weight: normal;
   font-style: normal; }
 [class^="icon-"], [class*=" icon-"] {
@@ -71,6 +71,9 @@ table {
 
 .icon-facebook:before {
   content: "\e907"; }
+
+.icon-linkedin2:before {
+  content: "\e900"; }
 
 h1,
 h2,
@@ -346,6 +349,8 @@ img {
   z-index: 2;
   font-size: 100px;
   font-size: 4vw; }
+.section--secondary .btn-primary {
+  transition: all linear .3s; }
 
 .section--details .section__title {
   position: relative;
@@ -517,8 +522,7 @@ img {
   width: 935px;
   height: 400px;
   margin: 0 auto;
-  border: 10px solid #201e1e;
-  position: relative; }
+  border: 10px solid #201e1e; }
 .section--contact .content-image-wrap {
   background-image: url(../images/started-image-bg.png);
   background-repeat: repeat;
@@ -537,7 +541,7 @@ img {
   position: relative;
   top: 20px;
   z-index: 2;
-  transition: all .6s 1.2s ease-in-out;
+  transition: all linear .3s;
   opacity: 0;
   filter: alpha(opacity=0);
   margin-top: 2em; }
@@ -610,8 +614,8 @@ img {
       padding: 9px 8px;
       height: 18px; }
     .social-media-icons li .icon-3 {
-      padding: 10px 8px;
-      height: 16px; }
+      padding: 7px 8px;
+      height: 22px; }
 
 .ie9 .section--details .section-caption {
   height: 500px; }
@@ -1516,6 +1520,9 @@ img {
 
   .contact__info {
     margin-top: 3%; } }
+@media (max-height: 750px) {
+  .modal-content .close {
+    top: 0; } }
 @media (max-height: 700px) {
   .section--contact .content-wrap {
     height: 245px; }

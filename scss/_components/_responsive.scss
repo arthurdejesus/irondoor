@@ -574,6 +574,13 @@
 
 }
 
+@media(max-height: 750px) {
+  .modal-content .close {
+	top: 0;
+  }
+
+}
+
 @media(max-height: 700px) {
   .section--contact .content-wrap {
 	height: 245px;
