@@ -395,6 +395,7 @@
 // Contact
 
 .section--contact {
+  overflow: hidden;
 	.section__title {
 	  position: relative;
 	  top: 30px;
@@ -639,6 +640,8 @@
 
   .section__tile-image {
 	background-position: center center;
+	height: 100%;
+	width: 100%;
   }
 }
 .ie9 {
