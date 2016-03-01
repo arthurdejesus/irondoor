@@ -1317,6 +1317,9 @@ img {
 
   .is-mobile .section {
     min-height: 600px; }
+  .is-mobile .section--introduction {
+    height: 700px;
+    min-height: 0; }
   .is-mobile .carousel--details .carousel-inner {
     height: 600px; }
   .is-mobile .carousel--details .carousel-inner .active .section-caption {
@@ -1464,6 +1467,14 @@ img {
   .section--contact .content-wrap {
     height: 200px; }
 
+  .carousel-indicators li {
+    margin-left: 2px;
+    margin-right: 2px; }
+
+  .is-mobile .section--introduction {
+    height: 400px; }
+  .is-mobile .active .section__trigger {
+    bottom: 20px; }
   .is-mobile .carousel--details .item-details {
     display: block; }
   .is-mobile .product--details {
@@ -1566,7 +1577,11 @@ img {
     margin-top: 3%; } }
 @media (max-width: 640px) {
   .section--introduction .section__title--primary {
-    font-size: 35px; } }
+    font-size: 35px; }
+
+  .is-mobile .section--introduction {
+    height: 400px;
+    min-height: 0 !important; } }
 @media (max-width: 480px) {
   .section__trigger-link {
     width: 30px;
@@ -1600,7 +1615,11 @@ img {
   .menu__item a {
     padding-left: 10px;
     padding-right: 10px;
-    font-size: 11px; } }
+    font-size: 11px; }
+
+  .is-mobile .section--introduction {
+    height: 350px;
+    min-height: 0 !important; } }
 @media (max-width: 400px) {
   .section--introduction .section__title--primary {
     font-size: 30px; }
@@ -1618,11 +1637,15 @@ img {
     font-size: 10px; }
 
   .carousel-indicators li {
-    margin-left: 3px;
-    margin-right: 3px; }
+    margin-left: 2px;
+    margin-right: 2px; }
 
   .carousel--steps .carousel-inner {
     min-height: 380px; }
 
   .section--contact .content-wrap {
-    height: 215px; } }
+    height: 215px; }
+
+  .is-mobile .section--introduction {
+    height: 300px;
+    min-height: 0 !important; } }

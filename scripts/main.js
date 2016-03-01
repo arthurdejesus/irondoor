@@ -63,9 +63,9 @@ if(!isMobile){
     $('.section--introduction').addClass('active');
     $("body").addClass("is-mobile");
     $('.l-header, .section__trigger, .l-footer').addClass('is-animated');
-    $(window).resize(function() {
-        $('.section--introduction').height($(window).height());
-    });
+    //$(window).resize(function() {
+    //    $('.section--introduction').height($(window).height());
+    //});
 
     $(window).trigger('resize');
 

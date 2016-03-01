@@ -219,6 +219,11 @@
 	  min-height: 600px;
 	}
 
+	.section--introduction {
+	  height: 700px;
+	  min-height: 0;
+	}
+
 	.carousel--details {
 	  .carousel-inner {
 		height: 600px;
@@ -440,7 +445,21 @@
 	height: 200px;
   }
 
+  .carousel-indicators li {
+	margin-left: 2px;
+	margin-right: 2px;
+  }
+
   .is-mobile {
+	.section--introduction {
+	  height: 400px;
+	}
+
+	.active .section__trigger {
+	  bottom: 20px;
+	}
+
+
 	.carousel--details .item-details {
 	  display: block;
 	}
@@ -608,6 +627,13 @@
   .section--introduction .section__title--primary {
 	font-size: 35px;
   }
+
+  .is-mobile {
+	.section--introduction {
+	  height: 400px;
+	  min-height: 0 !important;
+	}
+  }
 }
 
 @media(max-width: 480px) {
@@ -654,6 +680,13 @@
 	padding-right: 10px;
 	font-size: 11px;
   }
+
+  .is-mobile {
+	.section--introduction {
+	  height: 350px;
+	  min-height: 0 !important;
+	}
+  }
 }
 
 @media(max-width: 400px) {
@@ -677,8 +710,8 @@
   }
 
   .carousel-indicators li {
-	margin-left: 3px;
-	margin-right: 3px;
+	margin-left: 2px;
+	margin-right: 2px;
   }
 
   .carousel--steps .carousel-inner {
@@ -687,5 +720,12 @@
 
   .section--contact .content-wrap {
 	height: 215px;
+  }
+
+  .is-mobile {
+	.section--introduction {
+	  height: 300px;
+	  min-height: 0 !important;
+	}
   }
 }
