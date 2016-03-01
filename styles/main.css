@@ -1632,9 +1632,9 @@ img {
     padding: 8px 15px; }
 
   .menu__item a {
-    padding-left: 8px;
-    padding-right: 8px;
-    font-size: 10px; }
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 8px; }
 
   .carousel-indicators li {
     margin-left: 2px;
@@ -1648,4 +1648,7 @@ img {
 
   .is-mobile .section--introduction {
     height: 300px;
-    min-height: 0 !important; } }
+    min-height: 0 !important; }
+
+  .menu__list.is-in {
+    right: 20px; } }
